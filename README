@@ -1,0 +1,16 @@
+A:
+_Z7averageP
+_Z7averageif
+
+B:
+output:
+1 8
+4 8
+4 8
+8 8
+
+sizeof(char) is 1 by definition (so a char is a byte). 
+int occupies 4 bytes.
+Single-precision floating-point format occupies 4 bytes.
+Double-precision floating-point format occupies 8 bytes
+Size of a pointer should be 8 bytes on any 64-bit C/C++ compiler.
